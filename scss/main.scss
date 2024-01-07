@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1280px;
+    height: 100px;
+    // background-color: red;
+    margin: 0 auto;
+}
+.navbar{
+    
+    width: 100%;
+    height: 100px;
+    // background-color: blue;
+    margin: 20px auto;
+}
+.logo_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.for_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_text{
+    transition: 1s;
+    
+}
+.logo_text:hover{
+    color: #5f37b4;
+}
+.navbar_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigations{
+    color: black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navigation{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 1s;
+}
+.navigation:hover{
+    color: #5f37b4;
+}
+.navigations_btn{
+    width: 128px;
+    height: 40px;
+    background-color: #5f37b4;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    transition: 1s;
+    
+}
+.navigations_btn:hover{
+    color: #5f37b4;
+    border: 2px solid #5f37b4;
+    background-color: white;
+
+}
+.navbar_btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: none;
+}
+.main_text{
+    // display: flex;
+    // justify-content: center;
+}
+.main_text_content{
+    // text-align: center;
+    padding: 20px 0;
+    color: #5f37b4;
+}
+.main_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_channel_image{
+    width: 400px;
+    height: 0 auto;
+    background-size: cover;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+.logo{
+    text-align: center;
+    padding: 20px 0;
+    color: #5f37b4;
+    transition: 0.5s;
+
+}
+.logo:hover{
+    color: #5f37b4;
+}
+
+.jackimage{
+    width: 400px;
+    height: 0 auto;
+    border-radius: 15px;
+    margin: 30px 0;
+    
+}
+.founders{
+    text-align: center;
+    padding: 30px 0;
+    color: #5f37b4;
+}
+.jack{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.jack-text{
+    text-align: center;
+    color: #5f37b4;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.found{
+    text-align: center;
+    padding: 10px 50px;
+}
+.forvideo{
+    // border: 2px solid red;
+    
+}
+.dianaimage{
+    width: 400px;
+    height: 0 auto;
+    border-radius: 15px;
+    margin: 30px 0;
+}
